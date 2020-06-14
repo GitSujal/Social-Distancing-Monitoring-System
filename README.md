@@ -3,6 +3,10 @@
 This demo of social distancing monitoring system is built on top of Multi person Identification model from Intel and uses the demo code provided with Intel OpenVino Platform
 The Intel multi person identification model demo can be found [here](https://docs.openvinotoolkit.org/latest/_demos_python_demos_multi_camera_multi_person_tracking_README.html)
 
+### Demo run on a sample video
+
+![Sample Run of the Program](SampleRun.gif)
+
 ## Requirements
 
 1. Intel OpenVino: Installation instructions can be found [here](https://software.intel.com/content/www/xl/es/develop/tools/openvino-toolkit/get-started.html)
@@ -168,7 +172,3 @@ Visualization can be controlled using the following keys:
 
 Also demo can dump resulting tracks to a json file. To specify the file use the
 `--history_file` argument.
-
-### Demo run on a sample video
-
-![Sample Run of the Program](SampleRun.gif)
